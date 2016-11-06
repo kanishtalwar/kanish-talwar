@@ -3,12 +3,11 @@
   <head>
     <meta content="text/html; charset=UTF-8" http-equiv="content-type">
     <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="styles%5Chomepage.css">
+    <link rel="stylesheet" type="text/css" href="styles\homepage.css">
   </head>
   <body>
-    <div class="head"> <span class="head">kanishtalwar1@gmail.com</span> <span
-
-        class="head">#8800627167</span> </div>
+    <div class="head"> <span class="head">kanishtalwar1@gmail.com</span>
+      <span class="head">#8800627167</span> </div>
     <div class="navbar">
       <table>
         <tbody>
@@ -34,10 +33,15 @@
         </tbody>
       </table>
     </div>
-    <div>
-      <center><span style="color:red; font-size:20px; margin:5em">SITE UNDER
-          CONSTRUCTION</span></center>
+    <div><br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <center><span style="color:red; font-size:20px;">SITE UNDER CONSTRUCTION</span></center>
     </div>
-    
   </body>
 </html>
