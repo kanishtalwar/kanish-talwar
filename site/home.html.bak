@@ -3,7 +3,7 @@
   <head>
     <meta content="text/html; charset=UTF-8" http-equiv="content-type">
     <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="styles\homepage.css"/>
+    <link rel="stylesheet" type="text/css" href="styles%5Chomepage.css">
   </head>
   <body>
     <div class="head"> <span class="head">kanishtalwar1@gmail.com</span> <span
@@ -13,8 +13,7 @@
       <table>
         <tbody>
           <tr>
-            <td> <img class="logo" src="images\Logo_K.png">
-            </td>
+            <td> <img class="logo" src="images%5CLogo_K.png"> </td>
             <td>
               <div class="navbar-contents"> <button class="btnHome">Home</button>
                 <div class="sub-contents"> </div>
@@ -34,6 +33,10 @@
           </tr>
         </tbody>
       </table>
+    </div>
+    <div>
+      <center><span style="color:red; font-size:20px; margin:5em">SITE UNDER
+          CONSTRUCTION</span></center>
     </div>
     
   </body>
