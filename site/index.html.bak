@@ -4,32 +4,31 @@
     <meta content="text/html; charset=windows-1252" http-equiv="content-type">
     <title>Kanish Talwar</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-    <style>
-      input.ng-invalid
-      {
-        background-color:lightblue;
-      }
-      input.ng-valid
-      {
-        background-color:lightgreen;
-      }
-    </style>
+    <script src="scripts\index.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles\index.css"/>
   </head>
   <body>
-    <div ng-app="MyApp" ng-controller="MyCtrl"> 
-      <form name="MyForm">
-      Enter your name: 
-      <input name="inputName" ng-model="Name" type="text" 
-    		style="background-color:{{inputNamebackground}}" required>
-      <p ng-show="MyForm.inputName.$dirty" ng-hide="MyForm.inputName.$invalid">Hello 
-        <span ng-bind="Name"></span></p>
+    <div ng-app="MyApp" ng-controller="MyCtrl">
+      <form name="MyForm"> Enter your name: <input name="inputName"
+
+          ng-model="Name" style="background-color:{{inputNamebackground}}" required=""
+
+          type="text">
+        <p ng-show="MyForm.inputName.$dirty" ng-hide="MyForm.inputName.$invalid">Hello
+          <span ng-bind="Name"></span></p>
       </form>
     </div>
-    <script>
-      var app=angular.module("MyApp",[]);
-      app.controller("MyCtrl",function($scope){
-      });
-    </script>
-    
+    <div class="navbar">
+      <ul>
+        <li class="navbar-item"><a href="About">About</a></li>
+        <li class="navbar-item sites-options"><a href="Sites">Sites</a>
+        <ul class="navbar-subitems">
+          <li class="navbar-subitem"><a href="Restraunts">Restraunts</a></li>
+          <li class="navbar-subitem"><a href="Hotels">Hotels</a></li>
+        </ul>
+        </li>
+        <li class="navbar-item"><a href="Contact">Contact</a></li>
+      </ul>  
+    </div>
   </body>
 </html>

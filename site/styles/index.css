@@ -1,0 +1,56 @@
+input.ng-invalid
+      {
+        background-color:lightblue;
+      }
+      input.ng-valid
+      {
+        background-color:lightgreen;
+      }
+
+*{
+padding:0px;
+margin:0px;
+}
+.navbar
+{
+margin-top: 20px;
+padding:5px 10px 5px;
+}
+
+.navbar{
+background-color:lightgray;
+}
+.navbar ul .navbar-item{
+position:relative;
+display:inline;
+margin-left:20px;
+}
+.navbar .navbar-item a{
+background-color:transparent;
+text-decoration:none;
+font-weight:bold;
+font-size:20px;
+color:gray;
+}
+
+.navbar-subitems{
+position:absolute;
+left:-10px;
+display:none;
+background-color:lightblue;
+list-style:none;
+}
+
+.navbar ul .navbar-item:hover a{
+color:white;
+}
+
+.navbar ul .navbar-item:hover .navbar-subitems{
+display:block;
+padding:5px;
+}
+
+.navbar ul .navbar-item .navbar-subitems .navbar-subitem:hover a{
+background-color:white;
+color:lightblue;
+}
